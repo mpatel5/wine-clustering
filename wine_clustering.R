@@ -4,7 +4,7 @@ library(cluster)
 library(factoextra)
 
 # Import Dataset
-df <- read_csv("~/Downloads/wine-clustering.csv")
+df <- read_csv("https://raw.githubusercontent.com/mpatel5/wine-clustering/main/wine-clustering.csv")
 
 # Data Preview
 head(df)
